@@ -12,7 +12,7 @@ const metascraper = require('metascraper')([
   require('metascraper-description')()
 ])
 
-const production = process.env.PORT
+const production = 'https://singyo-urlshortner.herokuapp.com/'
 const development = 'http://localhost:3000/'
 const baseUrl = (process.env.NODE_ENV ? production : development)
 const router = express.Router()
