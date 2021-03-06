@@ -1,0 +1,70 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
+html,
+body {
+  height: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+.card {
+  max-width: 500px;
+}
+.card-body {
+  background:rgba(213, 235, 216, 0.7);
+}
+
+.card-text {
+  font-size:small;
+  font-style: oblique;
+  font-weight: 400;  
+}
+
+.card-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: medium;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  color: rgb(92, 92, 92);
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(2, 49, 58), rgb(2, 49, 58) 50%, rgb(8, 109, 109) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 800ms ease
+}
+
+.logo:hover {
+  background-position: 0 100%;
+}
+
+.bg-img {
+  width:30rem;
+  height:20rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
