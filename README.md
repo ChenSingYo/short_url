@@ -1,6 +1,6 @@
 ## URL Shortner
 
-Sample expense record page
+Sample URL Shortner
 
 [Heroku Demo](https://singyo-URLShortner.herokuapp.com/)
 
